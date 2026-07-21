@@ -1,0 +1,8 @@
+class Solution {
+    public int majorityElement(int[] a) {
+        Arrays.sort(a);
+        int b=a.length;
+        return a[b/2];
+        
+    }
+}
